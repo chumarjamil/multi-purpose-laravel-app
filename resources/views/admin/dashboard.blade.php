@@ -1,7 +1,6 @@
-@extends('layouts.app')
-
-@section('content')
-     <!-- Content Header (Page header) -->
+<x-admin-layout>
+    <div>
+        <!-- Content Header (Page header) -->
      <div class="content-header">
         <div class="container-fluid">
           <div class="row mb-2">
@@ -83,4 +82,5 @@
         </div><!-- /.container-fluid -->
       </div>
       <!-- /.content -->
-@endsection
+    </div>
+</x-admin-layout>
