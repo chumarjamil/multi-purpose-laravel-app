@@ -57,7 +57,8 @@
               </li>
 
               <li class="nav-item">
-                <a href="" class="nav-link"
+                <a href="{{ route('admin.users') }}" class="nav-link
+                {{ request()->is('admin/users') ? 'active' : '' }}"
                 >
                   <i class="nav-icon fas fa-tachometer-alt"></i>
                   <p>
